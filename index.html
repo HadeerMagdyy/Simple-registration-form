@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <link href="css/index.css" rel="stylesheet">
+
+  <!-- jQuery and Bootstrap JS -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/1.11.1/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+ <script src="js/index.js"></script>
+
+
+  </head>
+    
+ 
+  <body>
+    
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#"><img src="img/nasplogo.png"></a>
+    </div>
+
+     <br><br>
+     <br><br>
+     <br><br>
+      <!--<h2>Responsive Form</h2>
+<p>Resize the browser window to see the effect. When the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other.</p>-->
+
+      <form action="javascript:;" style="max-width:700px;margin:auto" id="resetForm" >
+         <!-- <h2>Register Form</h2>-->
+          <div class="input-container">
+            <i class="fa fa-user icon"></i>
+            <input class="input-field" type="text" placeholder="Name" id="Student_Name" name="Student_Name" required>
+          </div>
+
+          <div class="input-container">
+            <i class="fa fa-envelope icon"></i>
+            <input class="input-field" type="text" placeholder="name@domain.com" id="email" name="email" required>
+          </div>
+
+          <div class="input-container">
+            <i class="fa fa-phone icon"></i>
+            <input class="input-field" type="phone" placeholder="Phone" id="phone" name="phone" required>
+          </div>
+          
+          <div class="input-container">
+            <i class="fa fa-arrow-right icon"></i>
+        <select id="Course_Name" name="Course_Name" required>
+          <option value="" selected style="display:none">Select course name </option>
+          <option value="Safety Awareness">Safety Awareness</option>
+          <option value="NASP Technician Level">NASP Technician Level</option>
+          <option value="NASP 10 hour Course for General Industry">NASP 10 hour Course for General Industry</option>
+          <option value="NASP 30 hour Course for General Industry">NASP 30 hour Course for General Industry</option>
+          <option value="NASP 10 hour Course for Construction">NASP 10 hour Course for Construction </option>
+          <option value="NASP 30 hour Course for Construction">NASP 30 hour Course for Construction</option>
+          <option value="Workplace Safety Practitioner Level I (any of our three Technician Level Courses)">Workplace Safety Practitioner Level I (any of our three Technician Level Courses)</option>
+          <option value="Workplace Safety Practitioner Level II (any of our six Technician Level Courses)">Workplace Safety Practitioner Level II (any of our six Technician Level Courses) </option>
+          <option value="Workplace Safety Practitioner Level III (any of our nine Technician Level Courses)">Workplace Safety Practitioner Level III (any of our nine Technician Level Courses)</option>
+          <option value="Occupational Safety and Health Diploma (any six of our Awareness Courses">Occupational Safety and Health Diploma (any six of our Awareness Courses</option>
+          <option value="Occupational Safety and Health Advanced Diploma (any twelve of our Awareness Courses)">Occupational Safety and Health Advanced Diploma (any twelve of our Awareness Courses)</option>
+          <option value="Occupational Safety and Health Supervisor Diploma (any eighteen of our Awareness Courses)">Occupational Safety and Health Supervisor Diploma (any eighteen of our Awareness Courses)</option>
+          <option value="Arc Flash Protection">Arc Flash Protection</option>
+          <option value=">Back Safety">Back Safety</option>
+          <option value="Changing Safety Behavior">Changing Safety Behavior</option>
+          <option value="Confined Space Entry">Confined Space Entry</option>
+          <option value="Egress/Fire Safety">Egress/Fire Safety</option>
+          <option value="Electrical Safety">Electrical Safety</option>
+          <option value="Ergonomics">Ergonomics</option>
+          <option value="Hazard Communication (GHS)">Hazard Communication (GHS)</option>
+          <option value="Hazardous Materials">Hazardous Materials</option>
+          <option value="HAZWOPER Awareness">HAZWOPER Awareness</option>
+          <option value="Lockout Tagout</">Lockout Tagout</option>
+          <option value="Machine Guarding">Machine Guarding</option>
+          <option value="OSHA Inspections and Penalties">OSHA Inspections and Penalties</option>
+          <option value="PPE (hand, eye, foot protection)">PPE (hand, eye, foot protection)</option>
+          <option value="Preventing Workplace Violence">Preventing Workplace Violence</option>
+          <option value="Record Keeping (not for international students)">Record Keeping (not for international students)</option>
+          <option value="Slips, Trips, and Falls">Slips, Trips, and Falls</option>
+          <option value="Walk/Work Surfaces">Walk/Work Surfaces</option>
+          <option value="Weld/Cut/Braze">Weld/Cut/Braze</option>
+        </select>
+          </div>
+        <div class="col-75">
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:100px"></textarea>
+        </div>
+          <button type="submit" class="btn" onclick="insert_value()" >Submit</button>
+         
+</form>
+
+      <br>
+      <br>
+ </body>
+    
+    
+</html>
